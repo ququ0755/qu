@@ -4,10 +4,5 @@
     <TargetProject>0126dcad-7ede-441e-b87f-01297dfdfff4</TargetProject>
     <FriendlyName>PythonApplication1</FriendlyName>
   </ProjectTarget>
-  <Reports>
-    <Report>
-      <Filename>C:\Users\86183\AppData\Local\Temp\PythonApplication11_20200621(1).vsp</Filename>
-    </Report>
-  </Reports>
   <UseVTune>false</UseVTune>
 </ProfilingTarget>

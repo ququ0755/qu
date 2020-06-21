@@ -19,7 +19,7 @@ if love == '':
 
 turtle.setup(width=800, height=500)
 # 颜色
-turtle.color('red', 'pink')
+turtle.color('red', 'green')
 # 笔粗细
 turtle.pensize(5)
 # 速度
@@ -60,13 +60,13 @@ time.sleep(2)
 # 在心中写字 二次
 turtle.goto(0, 0)
 turtle.showturtle()
-turtle.color('red', 'pink')
+turtle.color('yellow', 'black')
 turtle.write(love, font=('gungsuh', 30,), align="center")
 turtle.up()
 turtle.hideturtle()
 # 写署名
 if me != '':
-    turtle.color('black', 'pink')
+    turtle.color('green', 'pink')
     time.sleep(2)
     turtle.goto(180, -180)
     turtle.showturtle()
