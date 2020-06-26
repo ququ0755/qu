@@ -8,12 +8,12 @@ def LittleHeart():
         turtle.right(1)
         turtle.forward(2)
  
-# 输入表白的语句，默认I Love you
-love = input('请输入语句，默认为输入为"I Love you": ')
+# 输入***语句，默认I Love you
+love = input('请输入语句，默认为输入为"test": ')
 # 输入署名或者赠谁，没有不执行
 me = input('请输入您的姓名或者昵称: ')
 if love == '':
-    love = 'I Love you'
+    love = 'test'
 # 窗口大小
 turtle.setup(width=800, height=500)
 # 颜色
