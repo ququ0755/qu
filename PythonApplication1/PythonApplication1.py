@@ -2,22 +2,23 @@
 import turtle
 import time
  
-# 画爱心的顶部
 def LittleHeart():
     for i in range(200):
         turtle.right(1)
         turtle.forward(2)
  
-# 输入表白的语句，默认I Love you
-love = input('请输入语句，默认为输入为"I Love you": ')
-# 输入署名或者赠谁，没有不执行
-me = input('请输入您的姓名或者昵称: ')
+love = input('请输入你想说的话，默认TEST": ')
+
+def method_name():
+    return '请输入您的姓名或者昵称: '
+
+me = input(method_name())
 if love == '':
-    love = 'I Love you'
-# 窗口大小
+    love = 'TEST'
+
 turtle.setup(width=800, height=500)
 # 颜色
-turtle.color('red', 'pink')
+turtle.color('red', 'green')
 # 笔粗细
 turtle.pensize(5)
 # 速度
@@ -58,13 +59,13 @@ time.sleep(2)
 # 在心中写字 二次
 turtle.goto(0, 0)
 turtle.showturtle()
-turtle.color('red', 'pink')
+turtle.color('yellow', 'black')
 turtle.write(love, font=('gungsuh', 30,), align="center")
 turtle.up()
 turtle.hideturtle()
 # 写署名
 if me != '':
-    turtle.color('black', 'pink')
+    turtle.color('green', 'pink')
     time.sleep(2)
     turtle.goto(180, -180)
     turtle.showturtle()
